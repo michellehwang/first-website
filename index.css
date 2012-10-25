@@ -1,0 +1,28 @@
+#container {
+	position: relative;
+	width:50%;
+}
+
+#headercontainer{
+	margin: center;
+	width: 200px;
+	height: 20px;
+}
+#header {
+	float: right;
+	background-color: white;
+}
+
+#cat {
+	float: left;
+	background-color: white;
+	border-radius:15px;
+}
+
+.name {
+	float: right;
+	font-family : "Arial";
+	font-size: 50;
+	color : black;
+}
+
