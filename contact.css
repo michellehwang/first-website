@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(Wallpaper.jpg)
+}
+
+#contact {
+	width: 380px;
+	height: 100px;
+	border-radius: 4px;
+	background-color: #CCCCCC;
+	top: 400px;
+	position: relative;
+	font-family: "Courier New", Courier, monospace;
+	opacity: .7;
+	margin-left: 4px;
+}
