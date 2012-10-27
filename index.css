@@ -1,66 +1,28 @@
-body {
-	background-image:url('http://i50.tinypic.com/ngv7mp.jpg');
-	background-repeat:no-repeat;
-	background-position:left top;
-	margin-left:20px;
-	float: left;
-	}
-	
-.left {
-	float: left;
-}
 #container {
-	float: left;
-	position: fixed;
-	width: 50%;
+	position: relative;
+	width:50%;
 }
 
 #headercontainer{
-	float: left;
-	margin: left;
-	width: 100px;
+	margin: center;
+	width: 200px;
 	height: 20px;
 }
-#name_img {
+#header {
+	float: right;
+	background-color: white;
+}
+
+#cat {
 	float: left;
-	height: 50px;
-}
-
-#contact {
-	position: fixed;
-	border-radius: ;
-	-webkit-transform: rotate(40deg);
-	-moz-transform: rotate(40deg);
-	left: 300px;
-	top: 300px;
-	width: 153px;
-	height: 137px;
-}
-
-#github {
-	position: fixed;
-	border-radius: ;
-	-webkit-transform: rotate(10deg);
-	-moz-transform: rotate(10deg);
-	left: 355px;
-	top: 200px;
-	width: 153px;
-	height: 137px;
-}
-
-#tumblr {
-	position: fixed;
-	border-radius: ;
-	-webkit-transform: rotate(70deg);
-	-moz-transform: rotate(70deg);
-	left: 210px;
-	top: 340px;
-	width: 153px;
-	height: 137px;
+	background-color: white;
+	border-radius:15px;
 }
 
 .name {
-	position: relative;
-	height: 100px;
-	float: left;
+	float: right;
+	font-family : "Arial";
+	font-size: 50;
+	color : black;
 }
+
