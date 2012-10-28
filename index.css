@@ -23,13 +23,23 @@ body {
 	height: 20px;
 }
 #name_img {
+	size: inherit;
 	float: left;
 	height: 50px;
 }
 
+#linkedin {
+	position:relative;
+	-webkit-transform: rotate(-14deg);
+	-moz-transform: rotate(-14deg);
+	left: 360 px;
+	top: 70px;
+	width: 153px;
+	height: 137px;
+}
+
 #contact {
 	position: fixed;
-	border-radius: ;
 	-webkit-transform: rotate(40deg);
 	-moz-transform: rotate(40deg);
 	left: 295px;
@@ -40,7 +50,6 @@ body {
 
 #github {
 	position: fixed;
-	border-radius: ;
 	-webkit-transform: rotate(8deg);
 	-moz-transform: rotate(8deg);
 	left: 360px;
@@ -51,11 +60,20 @@ body {
 
 #tumblr {
 	position: fixed;
-	border-radius: ;
-	-webkit-transform: rotate(70deg);
-	-moz-transform: rotate(70deg);
-	left: 210px;
-	top: 340px;
+	-webkit-transform: rotate(65deg);
+	-moz-transform: rotate(65deg);
+	left: 219px;
+	top: 342px;
+	width: 153px;
+	height: 137px;
+}
+
+#resume {
+	position: fixed;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	left: 110px;
+	top: 357px;
 	width: 153px;
 	height: 137px;
 }
