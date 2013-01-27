@@ -30,9 +30,9 @@ body {
 
 #linkedin {
 	position:fixed;
-	-webkit-transform: rotate(-15deg);
+	-webkit-transform: rotate(-14deg);
 	-moz-transform: rotate(-14deg);
-	left: 379 px;
+	left: 379px;
 	top: 75px;
 	width: 153px;
 	height: 137px;
@@ -51,7 +51,7 @@ body {
 #contact {
 	position: fixed;
 	-webkit-transform: rotate(15deg);
-	-moz-transform: rotate(40deg);
+	-moz-transform: rotate(15deg);
 	left: 348px;
 	top: 240px;
 	width: 153px;
@@ -62,7 +62,7 @@ body {
 #tumblr {
 	position: fixed;
 	-webkit-transform: rotate(35deg);
-	-moz-transform: rotate(65deg);
+	-moz-transform: rotate(35deg);
 	left: 300px;
 	top: 290px;
 	width: 153px;
@@ -72,7 +72,7 @@ body {
 #resume {
 	position: fixed;
 	-webkit-transform: rotate(65deg);
-	-moz-transform: rotate(90deg);
+	-moz-transform: rotate(60deg);
 	left: 220px;
 	top: 345px;
 	width: 153px;
